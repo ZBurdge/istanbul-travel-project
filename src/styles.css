@@ -8,6 +8,16 @@ body {
   margin: 0 auto;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
     url("../images/bridge.jpg");
@@ -53,7 +63,46 @@ header a {
   padding: 16px 32px;
 }
 
-@media (max-width: 900px) {
+footer {
+  background-image: linear-gradient(
+      rgba(39, 32, 68, 0.9),
+      rgba(39, 32, 68, 0.9)
+    ),
+    url("../images/city.night.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 100px 0;
+}
+
+footer h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  opacity: 0.6;
+  margin-right: 20px;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  list-style: none;
+}
+
+footer a {
+  color: white;
+  opacity: 0.7;
+}
+
+@media (max-width: 960px) {
   header {
     padding: 60px 0;
   }
