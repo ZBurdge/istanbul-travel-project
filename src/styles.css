@@ -68,6 +68,10 @@ body {
   margin-top: 32px;
 }
 
+.instagram-embeds {
+  margin: 36px 0;
+}
+
 section {
   max-width: 100%;
   margin: 0 auto;
