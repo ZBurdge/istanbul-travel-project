@@ -57,6 +57,10 @@ body {
   margin-top: 32px;
 }
 
+.secondary img {
+  max-height: 154px;
+}
+
 section {
   max-width: 100%;
   margin: 0 auto;
